@@ -1,0 +1,100 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+	width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    background-image: url(http://oss.yohn-z.cn/service/2024-04-28/background.jpg);
+    /* background-color: pink; */
+    background-color: transparent;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+html {
+    font-family: 'sans-serif', PingFangSC-Light, Microsoft YaHei UI, Microsoft YaHei, helvetica, Noto Sans SC Sliced;
+    font-weight: 300;
+    color: #000;
+}
+
+form,
+input,
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+input::-webkit-input-placeholder {
+    color: #ccc;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+ul,
+li {
+    display: block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+.foot {
+    position: absolute;
+    bottom: 10px;
+    z-index: 1000;
+    text-align: center;
+    width: 100%;
+    color: #999;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+svg.icon {
+    width: 14px;
+    height: 14px;
+    margin: 0 5px 0 8px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D8BFD8;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #D8BFD8;
+}
