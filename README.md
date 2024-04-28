@@ -37,14 +37,15 @@ git ...
 一般是 `http://<用户名>.github.io/<仓库名>/`
 
 如果你有自己的域名，可以自定义搜索页的访问链接（域名）
+
 ![20240428204410](http://oss.yohn-z.cn/img/20240428204410.png)
-一般是在项目根目录下创建文件 `CNAME`
-并写入你的访问域名或者子域名，如：`explore.yohn-z.cn`
+一般是在项目根目录下创建文件 `CNAME`，并写入你的访问域名或者子域名，如：`explore.yohn-z.cn`
+
 然后在你的域名解析管理处，添加一条记录，类型是 `cname`, 指向 `<用户名>.github.io/<仓库名>`
 
 ![20240428204802](http://oss.yohn-z.cn/img/20240428204802.png)
 
-
+可参考项目：`https://github.com/Yohn-z/Yohn-z.github.io`
 
 
 
